@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-@Component
+@Component //otomatik anlayacak. Dependency injection kendisi nesne alıcak.
 public class StringToLocalDate implements Converter<String, LocalDate> {
     @Override
     public LocalDate convert(String source)

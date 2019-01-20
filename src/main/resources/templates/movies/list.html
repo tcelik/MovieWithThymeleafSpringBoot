@@ -1,0 +1,20 @@
+<!-- YORUM -->
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List HTML</title>
+</head>
+<body>
+    <!-- else yok bunlarda böyle-->
+    <div th:if="${!movies.isEmpty()}"> <!-- gelen model moviesti collection olarak, burası server taraf-->
+
+    </div>
+
+    <div th:if="${movies.isEmpty()}">
+        <h3>No movies in database.</h3>
+    </div> <!-- else yok bunlarda böyle-->
+
+</body>
+</html>
