@@ -12,6 +12,7 @@ import java.util.Collection;
 
 import static org.csystem.springmvc.global.Global.*;
 
+//Rest değil farkındaysan demekki thymeleaf kullanalım burada.
 @Controller
 public class MovieController {
     private IMovieService m_movieService;
